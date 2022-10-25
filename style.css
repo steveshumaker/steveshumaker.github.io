@@ -1,0 +1,62 @@
+body {
+  background-color: cornsilk;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+h1 {
+  color: white;
+}
+
+h4 {
+  color: black;
+  border: 2px solid;
+  padding: 5px
+}
+
+div{
+  padding-left: 10px;
+  
+}
+
+.header{
+  background-color: black;
+  text: white;
+  padding-left: 10px;
+  border: 1px solid black;
+  
+}
+
+.footer{
+  background-color: black;
+  text: white;
+  padding-left: 10px;
+  border: 1px solid black;  
+}
+
+aside{
+  width: 30%;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
+
+a:link{
+  color: white;
+}
+
+a:visited{
+  color:pink;
+}
+
+a:active{
+  color:yellow;
+}
+
+
+@keyframes example {
+  from {background-color: cornsilk;}
+  to {background-color: #F9E79F;}
+}
