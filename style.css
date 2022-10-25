@@ -2,15 +2,26 @@ body {
   background-color: cornsilk;
   animation-name: example;
   animation-duration: 4s;
+  font-family: arial, helvetica, sans-serif;
 }
 
 h1 {
   color: white;
 }
 
+h2{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+h3{
+  border-bottom: 1px solid black;  
+}
+
 h4 {
   color: black;
-  border: 2px solid;
+  border-top: 1px solid;
+  border-bottom: 1px solid black;
   padding: 5px
 }
 
